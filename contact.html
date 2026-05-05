@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Marvel Rivals Strategy</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="author" content="Lucas Johnson">
+    <meta name="description" content="Contact page for Marvel Rivals strategy planning, submit strategies, feedback, team compositions, hero roles, gaming tactics">
+    <meta name="keywords" content="Marvel Rivals, contact, strategy, feedback, heroes, teams, gaming">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Contact / Submit Strategy</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <p>Use this form to submit your strategy or give feedback.</p>
+
+    <form>
+
+        <!-- Name -->
+        <fieldset>
+            <legend>Basic Info</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+
+        <br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Why are you contacting us?</legend>
+
+            <input type="radio" id="strategy" name="reason" value="strategy" required>
+            <label for="strategy">Submit Strategy</label><br>
+
+            <input type="radio" id="feedback" name="reason" value="feedback">
+            <label for="feedback">Give Feedback</label><br>
+
+            <input type="radio" id="question" name="reason" value="question">
+            <label for="question">Ask a Question</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Favorite Roles</legend>
+
+            <input type="checkbox" id="tank" name="role" value="tank">
+            <label for="tank">Tank</label><br>
+
+            <input type="checkbox" id="dps" name="role" value="dps">
+            <label for="dps">DPS</label><br>
+
+            <input type="checkbox" id="support" name="role" value="support">
+            <label for="support">Support</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Dropdown -->
+        <fieldset>
+            <legend>Main Character</legend>
+
+            <label for="character">Choose one:</label><br>
+            <select id="character" name="character">
+                <option value="">--Select a character--</option>
+                <option>Iron Man</option>
+                <option>Adam Warlock</option>
+                <option>Angela</option>
+                <option>Black Panther</option>
+                <option>Black Widow</option>
+                <option>Blade</option>
+                <option>Captain America</option>
+                <option>Cloak and Dagger</option>
+                <option>Daredevil</option>
+                <option>Deadpool</option>
+                <option>Doctor Strange</option>
+                <option>Emma Frost</option>
+                <option>Gambit</option>
+                <option>Groot</option>
+                <option>Hawkeye</option>
+                <option>Hela</option>
+                <option>Hulk</option>
+                <option>Human Torch</option>
+                <option>Invisible Woman</option>
+                <option>Iron Fist</option>
+                <option>Jeff</option>
+                <option>Loki</option>
+                <option>Luna Snow</option>
+                <option>Magik</option>
+                <option>Magneto</option>
+                <option>Mantis</option>
+                <option>Mister Fantastic</option>
+                <option>Moon Knight</option>
+                <option>Namor</option>
+                <option>Peni Parker</option>
+                <option>Phoenix</option>
+                <option>Psylocke</option>
+                <option>The Punisher</option>
+                <option>The Thing</option>
+                <option>Rocket Raccoon</option>
+                <option>Rogue</option>
+                <option>Scarlet Witch</option>
+                <option>Squirrel Girl</option>
+                <option>Spider-Man</option>
+                <option>Star-Lord</option>
+                <option>Storm</option>
+                <option>Thor</option>
+                <option>Ultron</option>
+                <option>Venom</option>
+                <option>Winter Soldier</option>
+                <option>Wolverine</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Textarea -->
+        <fieldset>
+            <legend>Your Message</legend>
+
+            <label for="message">Write your strategy or message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30" required></textarea>
+        </fieldset>
+
+        <br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <footer>
+        <p>Contact: Emannjohnson.04@gmail.com</p>
+        <p>Due Date: May 2026</p>
+    </footer>
+
+</body>
+</html>
